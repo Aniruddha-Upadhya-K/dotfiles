@@ -59,7 +59,6 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character
-#zstyle ':completion:*' select-prompt %SScrolling active: current selection at
 zstyle ':completion:*' use-compctl false
 
 # Aliases
@@ -68,7 +67,6 @@ alias vim='nvim'
 alias c='clear'
 
 # Shell integrations
-# source <(fzf --zsh)
 eval "$(zoxide init --cmd cd zsh)"
 
 export NVM_DIR="$HOME/.nvm"
