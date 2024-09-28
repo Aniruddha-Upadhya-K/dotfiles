@@ -8,8 +8,9 @@ if [ ! -d "$ZINIT_HOME" ]; then
 fi
 
 # Export environment variables
-export PATH='/home/ani/.local/bin':'/home/ani/Applications/blender-4.2.0':$PATH
 export LC_ALL='en_US.UTF-8'
+export TERM='xterm-256color'
+export COLORTERM="truecolor"
 
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
@@ -76,3 +77,7 @@ export NVM_DIR="$HOME/.nvm"
 export NARGO_HOME="/home/ani/.nargo"
 
 export PATH="$PATH:$NARGO_HOME/bin"
+
+export PATH="$PATH:/usr/local/cuda-12.6/bin"
+
+export PATH='/home/ani/.local/bin':$PATH

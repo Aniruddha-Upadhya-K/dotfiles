@@ -1,0 +1,13 @@
+[/]
+default='46c93af8-d13a-498e-822b-7f5c0f6dc662'
+list=['46c93af8-d13a-498e-822b-7f5c0f6dc662']
+
+[:46c93af8-d13a-498e-822b-7f5c0f6dc662]
+visible-name='Everblush'
+bold-color='#dadada'
+background-color='#141b1e'
+foreground-color='#dadada'
+palette=['#232a2d', '#e57474', '#8ccf7e', '#e5c76b', '#67b0e8', '#c47fd5', '#6cbfbf', '#b3b9b8', '#2d3437', '#ef7e7e', '#96d988', '#f4d67a', '#71baf2', '#ce89df', '#67cbe7', '#bdc3c2']
+
+use-theme-colors=false
+use-theme-background=false
