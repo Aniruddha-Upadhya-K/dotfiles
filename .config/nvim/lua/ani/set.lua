@@ -1,4 +1,4 @@
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -17,5 +17,7 @@ vim.opt.backup = false
 
 vim.g.mapleader = " "
 
-
-
+-- vim.keymap.set('n', '[[', '?{', {})
+-- vim.keymap.set('n', '][', '/}<CR>b99]}', {})
+-- vim.keymap.set('n', ']]', 'j0[[%/{<CR>', {})
+-- vim.keymap.set('n', '[]', 'k$][%?}<CR>', {})

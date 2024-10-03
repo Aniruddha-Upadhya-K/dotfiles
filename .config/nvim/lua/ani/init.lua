@@ -1,5 +1,6 @@
 require("ani.set")
 require("ani.lazy_init")
+require("ani.remap")
 
 -- require("lazy").setup({
     -- spec = {
